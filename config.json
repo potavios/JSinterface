@@ -1,0 +1,139 @@
+{
+    "scoreConfig": {
+        "luminosity": 0.5,
+        "focus": 0.5
+    },
+    "captureConfig": {
+        "captureMode": "AUTOMATIC",
+        "processingType": "FAST",
+        "timeToStartDetection": 1500,
+        "checkStability": true,
+        "hasBackButton": true,
+        "timeAttemptingAutomaticCapture": 20000
+    },
+    "editConfig": {
+        "validColor": "#D1000E",
+        "invalidColor": "#2600CE",
+        "zoomColor": "#680005",
+        "viewBackgroundColor": "#303F9F",
+        "backButton": {
+            "text": "Voltar",
+            "textColor": "#FFFFFF",
+            "fontSize": 12
+        },
+        "doneButton": {
+            "text": "OK",
+            "textColor": "#FFFFFF",
+            "fontSize": 12
+        },
+        "title": {
+            "text": "Captura",
+            "textColor": "#FFFFFF",
+            "fontSize": 25
+        },
+        "subtitle": {
+            "text": "Subtitulo",
+            "textColor": "#FFFFFF",
+            "fontSize": 16
+        },
+        "buttonsHeight": 40,
+        "subtitleHeight": 70
+    },
+    "loadingConfig": {
+        "capture": {
+            "description": {
+                "text": "Processando captura...",
+                "textColor": "#FFFFFF",
+                "fontSize": 16
+            },
+            "progressColor": "#FFFFFF",
+            "backgroundColor": "#000000",
+            "minimumTime": 3000
+        },
+        "quality": {
+            "description": {
+                "text": "Analisando a Qualidade da Imagem...",
+                "textColor": "#FFFFFF",
+                "fontSize": 16
+            },
+            "progressColor": "#FFFFFF",
+            "backgroundColor": "#000000",
+            "minimumTime": 3000
+        },
+        "perspective": {
+            "description": {
+                "text": "Analisando a perspectiva...",
+                "textColor": "#FFFFFF",
+                "fontSize": 16
+            },
+            "progressColor": "#FFFFFF",
+            "backgroundColor": "#000000",
+            "minimumTime": 3000
+        },
+        "colorConversion": {
+            "description": {
+                "text": "Processando o resultado...",
+                "textColor": "#FFFFFF",
+                "fontSize": 16
+            },
+            "progressColor": "#FFFFFF",
+            "backgroundColor": "#000000",
+            "minimumTime": 3000
+        }
+    },
+    "documentColorConfig": {
+        "cnhFrenteVerso": "BLACKWHITE",
+        "cnhAberta": "BLACKWHITE",
+        "rgFrenteVerso": "GRAYSCALE",
+        "rgAberto": "GRAYSCALE",
+        "comprovante": "RGB",
+        "matriculaImovel": "RGB",
+        "iptu": "RGB",
+        "declaracao": "RGB",
+        "outros": "RGB"
+    },
+    "alertDialogConfig": {
+        "preInstructions": {
+            "description": {
+                "text": "Coloque a câmera sobre o documento e espere a captura automática",
+                "textColor": "#ffffff",
+                "fontSize": 16
+            },
+            "title": {
+                "text": "Encaixe o documento dentro dos contornos",
+                "textColor": "#ffffff",
+                "fontSize": 16
+            },
+            "done": {
+                "text": "<b>Entendi!</b>",
+                "textColor": "#ffffff",
+                "fontSize": 16
+            },
+            "backgroundColor": "#d83e02"
+        },
+        "errorInstructions": {
+            "title": {
+                "text": "Ops! Não estamos conseguindo ler seu documento",
+                "textColor": "#ffffff",
+                "fontSize": 16
+            },
+            "description": {
+                "text": "Por favor, veja se a <b>luminosidade</b> do\nambiente, o <b>contraste</b> do\ndocumento com o fundo e sua\n<b>nitidez</b> estão adequados.",
+                "textColor": "#ffffff",
+                "fontSize": 16
+            },
+            "done": {
+                "text": "<b>Entendi!</b>",
+                "textColor": "#ffffff",
+                "fontSize": 16
+            },
+            "backgroundColor": "#d83e02"
+        }
+    },
+    "fileConfig": {
+        "format": "JPG",
+        "quality": 100,
+        "scale": 0.5,
+        "maxKbSize": 1024
+    }
+}
